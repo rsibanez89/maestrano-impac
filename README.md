@@ -1,20 +1,20 @@
 # Maestrano-Impac! #
 This is a Ruby on Rails simple application that query employees information by using a REST API and shows their locations on a map.
 
-## The steps to create the same application on Windows by yourself ##
+## The steps to create the same application on Windows by yourself ##  
 Note that installing x86 programs avoid compatibility problems
 
-1- Download JDK 8
-	- http://www.oracle.com/technetwork/java/javase/downloads/index.html
-2- Download JRuby.exe on C:\jruby-9.0.0.0
-	- http://jruby.org/files/downloads/9.0.0.0/index.html
+1- Download JDK 8  
+	- http://www.oracle.com/technetwork/java/javase/downloads/index.html  
+2- Download JRuby.exe on C:\jruby-9.0.0.0  
+	- http://jruby.org/files/downloads/9.0.0.0/index.html  
+  
+// All gems are automatically installed on C:\jruby-9.0.0.0\lib\ruby\gems\shared\gems  
 
-// All gems are automatically installed on C:\jruby-9.0.0.0\lib\ruby\gems\shared\gems
- 		
-3- Install the Bundler from the console
-		- jruby -S gem install bundler 
-4- Install rails from the console
-		- jruby -S gem install rails
+3- Install the Bundler from the console  
+		- jruby -S gem install bundler   
+4- Install rails from the console  
+		- jruby -S gem install rails  
 		
 5- Create a new rails project to ensure all was installed correctly
 		- rails new 'project-name'
