@@ -3,10 +3,11 @@ This is a Ruby on Rails simple application that query employees information by u
 
 ## The steps to create the same application on Windows by yourself
 Note that installing x86 programs avoid compatibility problems
-1- Download JDK 8 
-		http://www.oracle.com/technetwork/java/javase/downloads/index.html
-2- Download JRuby.exe on C:\jruby-9.0.0.0 
-		http://jruby.org/files/downloads/9.0.0.0/index.html
+
+1- Download JDK 8
+	http://www.oracle.com/technetwork/java/javase/downloads/index.html
+2- Download JRuby.exe on C:\jruby-9.0.0.0
+	http://jruby.org/files/downloads/9.0.0.0/index.html
 
 // All gems are automatically installed on C:\jruby-9.0.0.0\lib\ruby\gems\shared\gems
  		
