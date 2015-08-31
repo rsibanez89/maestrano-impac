@@ -1,7 +1,7 @@
 # Maestrano-Impac! #
 This is a Ruby on Rails simple application that query employees information by using a REST API and shows their locations on a map.
 
-## The steps to create the same application on Windows by yourself ##  
+## The steps to create the same application on Windows by yourself   
 Note that installing x86 programs avoid compatibility problems
 
 1- Download JDK 8  
@@ -32,13 +32,12 @@ Note that installing x86 programs avoid compatibility problems
 8- Create a controller called home and a linked view called index  
 - ```rails generate controller home index```
 
-9- Change the default index in the config/routes.rb
-Add or uncomment this line 
+9- Change the default index in the config/routes.rb. Add or uncomment this line 
  - ```root 'home#index'```  
 
 10- Edit your index from app/view/home/index.html.rb
 
-## For the front-end I used bootstrap for Ruby on Rails ##  
+## For the front-end I used bootstrap for Ruby on Rails   
 1- Add the following lines to the Gemfile
  - ```gem 'bootstrap-sass', '~> 3.2.0'```
  - ```gem 'autoprefixer-rails'```
