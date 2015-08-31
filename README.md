@@ -12,14 +12,14 @@ Note that installing x86 programs avoid compatibility problems
 // All gems are automatically installed on C:\jruby-9.0.0.0\lib\ruby\gems\shared\gems  
 
 3- Install the Bundler from the console  
-		```ruby jruby -S gem install bundler ```  
+```jruby -S gem install bundler ```  
 4- Install rails from the console  
-		- jruby -S gem install rails  
+		```jruby -S gem install rails ```  
 		
 5- Create a new rails project to ensure all was installed correctly
-		- rails new 'project-name'
-	// For creating a project without a database use -O		
-		- rails new 'project-name' -O
+		```rails new 'project-name'```  
+// For creating a project without a database use -O		
+		```rails new 'project-name' -O```
 6- Start the server
 		- cd project-name
 		- rails server
