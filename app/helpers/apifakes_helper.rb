@@ -1,0 +1,2 @@
+module ApifakesHelper
+end
